@@ -104,3 +104,23 @@ footer a {
     color: #222;
     font-weight: bolder;
 }
+
+/*Estilos para escritorio*/
+@media (min-width: 1024px) {
+    .card {
+        width: 20rem;
+    }
+
+    .top-bg {
+        top: -40rem;
+    }
+    
+    .bottom-bg {
+        top: -15rem;
+        right: -45%;
+        max-height: 300px;
+    }
+    .bottom-bg img {
+        width: 100%;
+    }
+}
