@@ -1,7 +1,5 @@
 body {
     background-color: hsl(185, 75%, 39%);
-    max-height: 100vh;
-    overflow: hidden;
 }
 
 .container {
@@ -95,5 +93,14 @@ body {
 .stats .stats-item .stats-title {
     color: hsl(229, 23%, 23%);
     font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+footer {
+    text-align: center;
+}
+footer a {
+    text-decoration: none;
+    color: #222;
     font-weight: bolder;
 }
